@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00FF00;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00FF00;
+    border: 1px solid #00FF00;
+    border-radius: 8px;
+}
+
+h2, h3 {
+    color: #1da1f2;
+}
+
+form input[type="text"], form input[type="password"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #00FF00;
+    border-radius: 4px;
+}
+
+form input[type="submit"], form input[type="file"] {
+    background-color: #00FF00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #00FF00;
+}
+
+.navbar {
+    background-color: #00FF00;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.navbar h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar nav {
+    display: inline-block;
+    float: right;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #00FF00;
+}
+
+.profile-header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.profile-banner {
+    width: 100%;
+    height: 200px;
+    background-color: #00FF00;
+}
+
+.profile-info {
+    position: relative;
+    padding: 20px;
+    text-align: left;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+    left: 20px;
+    border: 5px solid #ffffff;
+}
+
+.profile-details {
+    margin-left: 180px;
+}
+
+.profile-details h2, .profile-details p {
+    margin: 5px 0;
+}
+
+.profile-details p {
+    color: #657786;
+}
+
+.tweet {
+    border-bottom: 1px solid #00FF00;
+    padding: 10px 0;
+}
+
+.tweet p {
+    margin: 5px 0;
+}
+
+.tweet small {
+    color: #657786;
+}

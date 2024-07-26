@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1da1f2;
+}
+
+form input[type="text"], form input[type="password"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #e1e8ed;
+    border-radius: 4px;
+}
+
+form input[type="submit"], form input[type="file"] {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0d95e8;
+}
+
+.navbar {
+    background-color: #1da1f2;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-left: 20px;
+}
+
+
+
+.navbar {
+    background-color: #1da1f2;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.navbar h1 {
+    margin-right: 700px;
+    display: inline-block;
+}
+
+.navbar nav {
+    display: inline-block;
+    float: right;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #0d95e8;
+}
+.tweet {
+    border-bottom: 1px solid #e1e8ed;
+    padding: 10px 0;
+}
+
+.tweet strong {
+    color: #1da1f2;
+}
+
+.tweet p {
+    margin: 5px 0;
+}
+
+.tweet small {
+    color: #657786;
+}
+
+.search-result {
+    border-bottom: 1px solid #e1e8ed;
+    padding: 10px 0;
+}
+
+.search-result strong {
+    color: #1da1f2;
+}
+
+.search-result p {
+    margin: 5px 0;
+}
+
+.search-result a {
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+.search-result a:hover {
+    text-decoration: underline;
+}
+
+
+
+.profile-header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.profile-banner {
+    width: 100%;
+    background-color: #1da1f2;
+}
+
+.profile-info {
+    position: relative;
+    padding: 20px;
+    text-align: left;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+    left: 20px;
+    border: 5px solid #ffffff;
+}
+
+.profile-details {
+    margin-left: 180px;
+}
+
+.profile-details h2, .profile-details p {
+    margin: 5px 0;
+}
+
+.profile-details p {
+    color: #657786;
+}
